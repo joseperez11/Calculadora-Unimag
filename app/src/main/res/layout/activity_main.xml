@@ -11,31 +11,39 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:gravity="center_horizontal"
+        android:text="@string/Calculadora"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtnumero1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Número Uno"
         android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtnumero2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="numero_dos"
         android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Calcular"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/TxtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 </LinearLayout>
