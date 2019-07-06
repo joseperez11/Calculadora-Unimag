@@ -33,34 +33,36 @@
         android:inputType="numberDecimal" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/cmbOperaciones"
         android:layout_width="match_parent"
-<<<<<<< HEAD
+
         android:layout_height="wrap_content"
-        android:onClick="Calcular"
-        android:text="Calcular"
+
+
         android:textStyle="bold" />
-=======
         android:layout_height="wrap_content" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Limpiar" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="calcular"
             android:text="Calcular"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="limpiar"
+            android:text="Limpiar" />
+
     </LinearLayout>
 >>>>>>> interfaz
 

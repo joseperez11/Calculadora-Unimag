@@ -11,4 +11,7 @@
     <string name="resta">Subtration</string>
     <string name="Multiplicación">Multiplicatión</string>
     <string name="división">División</string>
+    <string name="error_1">Type Number 1</string>
+    <string name="error_2">Type Number 2</string>
+    <string name="error_3">The denominator can not be zero</string>
 </resources>
