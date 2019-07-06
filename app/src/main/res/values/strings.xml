@@ -2,5 +2,18 @@
     <string name="app_name">calculadora 2</string>
     <string name="Saludo">hola mundo</string>
     <string name="Calculadora">Calculadora</string>
-    <string name="numero_dos">Digite Número dos</string>
+    <string name="label_numero_dos">Digite Número dos</string>
+    <string name="label_numero_uno">Digite Número uno</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="Multiplicación">Multiplicación</string>
+    <string name="división">División</string>
+    <string-array name="opereaciones">
+        <item>@string/suma</item>
+    <item>@string/resta</item>
+    <item>@string/Multiplicación</item>
+    <item>@string/división</item>
+    </string-array>
 </resources>

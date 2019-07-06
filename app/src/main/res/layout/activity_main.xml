@@ -32,12 +32,30 @@
         android:hint="numero_dos"
         android:inputType="numberDecimal" />
 
-    <Button
-        android:id="@+id/button"
+    <Spinner
+        android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calcular"
-        android:textStyle="bold" />
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpiar" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/TxtResultado"
@@ -46,4 +64,5 @@
         android:gravity="center_horizontal"
         android:textSize="24sp"
         android:textStyle="bold" />
+
 </LinearLayout>
